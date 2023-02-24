@@ -27,4 +27,4 @@ Route::get('/cancel', [TodoController::class, 'cancel']);
 Route::get('/mark-as-completed/{id}', [TodoController::class, 'mark_as_completed']);
 Route::get('/remove-task/{id}', [TodoController::class, 'remove_task']);
 
-Route::get('/checkout', [TodoController::class,'checkout']);
+

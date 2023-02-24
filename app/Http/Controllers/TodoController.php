@@ -56,10 +56,4 @@ class TodoController extends Controller
     }
 
 
-
-
-    public function checkout(){
-        return view('pages.checkout.checkout');
-    }
-
 }

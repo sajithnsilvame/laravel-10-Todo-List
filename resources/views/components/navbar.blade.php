@@ -24,7 +24,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{url('checkout')}}" tabindex="-1" aria-disabled="true">Checkout</a>
+          <a class="nav-link" href="" tabindex="-1" aria-disabled="true">About</a>
         </li>
       </ul>
       <form class="d-flex">
