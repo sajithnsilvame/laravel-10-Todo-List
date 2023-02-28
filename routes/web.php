@@ -23,8 +23,9 @@ Route::get('/todo-list', [TodoController::class, 'todo']);
 Route::post('/add-task', [TodoController::class, 'add_task']);
 Route::get('/edit-task/{id}', [TodoController::class, 'edit_task']);
 Route::post('/update-task/{id}', [TodoController::class, 'update_task']);
+Route::get('/remove-task/{id}', [TodoController::class, 'remove_task']);
 Route::get('/cancel', [TodoController::class, 'cancel']);
 Route::get('/mark-as-completed/{id}', [TodoController::class, 'mark_as_completed']);
-Route::get('/remove-task/{id}', [TodoController::class, 'remove_task']);
+
 
 
